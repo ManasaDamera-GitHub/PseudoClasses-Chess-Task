@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+}
+
+.table {
+    width: 40vw;
+    height: 60vh;
+    border: 4px solid;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.row {
+    width: 50vw;
+    height: 5vh;
+    text-align: center;
+
+}
+
+td {
+    height: 10vh;
+}
+
+.table .row1:nth-child(odd)>.column:nth-child(even),
+.table .row3:nth-child(odd)>.column:nth-child(even),
+.table .row5:nth-child(odd)>.column:nth-child(even),
+.table .row7:nth-child(odd)>.column:nth-child(even) {
+    background-color: #b70f0f;
+}
+
+.table .row2:nth-child(even)>.column:nth-child(odd),
+.table .row4:nth-child(even)>.column:nth-child(odd),
+.table .row6:nth-child(even)>.column:nth-child(odd),
+.table .row8:nth-child(even)>.column:nth-child(odd) {
+    background-color: #b70f0f;
+}
+
+.table .row1:nth-child(odd)>.column:nth-child(odd),
+.table .row3:nth-child(odd)>.column:nth-child(odd),
+.table .row5:nth-child(odd)>.column:nth-child(odd),
+.table .row7:nth-child(odd)>.column:nth-child(odd) {
+    background-color: rgb(235, 196, 146);
+}
+
+.table .row2:nth-child(even)>.column:nth-child(even),
+.table .row4:nth-child(even)>.column:nth-child(even),
+.table .row6:nth-child(even)>.column:nth-child(even),
+.table .row8:nth-child(even)>.column:nth-child(even) {
+    background-color: rgb(235, 196, 146);
+}
